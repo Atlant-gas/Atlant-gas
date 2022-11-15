@@ -1,0 +1,13 @@
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'RussoOne';  
+}
+body {
+    background-color: #222222;
+}
+.flex {
+    display: flex;
+}

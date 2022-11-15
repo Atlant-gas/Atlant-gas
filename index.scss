@@ -1,0 +1,116 @@
+@import './assets/styles/_block';
+
+header {
+    justify-content: center;    
+}
+.headerLogo {
+    align-items: center;
+    gap: 400px;
+    &__logo {
+        margin-top: 18px;
+       
+        gap: 24px;
+        span {
+            margin-top: 46px;
+            height: 33px;
+            border: 1px solid #FFFFFF;}
+        p {
+            margin-top: 46px;
+            font-family: 'OpenSans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #2194FF;
+        }
+    }
+    &__phonenumber {        
+        text-align: left;
+        &--number {
+            font-size: 24px;
+            line-height: 29px;
+            color: #F1F1F1;
+        }
+        p:last-child {
+            font-family: 'OpenSans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            text-decoration-line: underline;
+            color: #2194FF;
+        }
+    }
+}
+main {
+    flex-direction: column;
+    align-items: center;
+}
+.gasDelivery {
+    justify-content: center;
+    transform: translateX(178px);
+    &__info {
+        transform: translateX(72px);
+        p {
+            font-family: 'OpenSans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #F1F1F1;
+            transform: translateX(20px);
+            margin-top: 13px;
+        }
+       &__service {
+        gap: 34px;        
+        margin-top: 36px;
+            &--item {
+                p {
+                    font-family: 'OpenSans';
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #F1F1F1;
+                }
+            }
+        }
+        h1 {
+            margin: 12px 0 14px;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 63px;
+            color: #2194FF;
+        }
+        &__subtitle {
+            p {
+                font-size: 24px;
+                line-height: 29px;
+                color: #F1F1F1;
+            }
+        }
+        button {
+            width: 395px;
+            height: 87px;
+            background-image: url(./assets/images/bg-btn1.png);
+            border-radius: 10px;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: center;
+            color: #F1F1F1;
+            text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+        }
+    }
+    &__img {
+    }
+}
+.costofGas {    
+    background: #2D3238;
+    width: 100vw;
+    justify-content: center;
+    &__container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 1140px;
+    }
+   
+}
