@@ -1,0 +1,101 @@
+.cost {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 600px;
+    background: rgba(33, 148, 255, 0.05);
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        width: 1140px;
+        height: 490px;
+        margin: 34px auto 0;
+    }
+
+    &__title {
+        @include fontA(36);
+        text-align: center;
+        color: #2194FF;
+        font-weight: 400;
+    }
+
+    &__sizeBox {
+        display: flex;
+        width: 730px;
+        height: 64px;
+        margin: 36px auto;
+        gap: 24px;
+    }
+
+    &__btn {
+        @include fontA(18);
+        text-align: center;
+        color: #f1f1f1;
+        font-weight: 400;
+
+        width: 150px;
+        height: 64px;
+        padding: 10px;
+        border: 0px solid;
+        background: rgba(241, 241, 241, 0.2);
+        border-radius: 20px;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    &__img {
+        width: 600px;
+        height: 260px;
+        margin: 0 auto;
+        background-image: url('../assets/images/volume1.png');
+    }
+
+    &__button {
+        @include fontA(20);
+        text-align: center;
+        color: #f1f1f1;
+
+        width: 400px;
+        height: 90px;
+        margin: 20px auto 0;
+        cursor: pointer;
+    }
+}
+
+// #btn-2:checked ~ .header__img{
+//     background-image: url('../assets/images/volume2.png');
+// }
+
+.img-1 {
+    width: 600px;
+    height: 260px;
+    background-image: url('../assets/images/volume1.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: .3s;
+}
+.img-2 {
+    width: 600px;
+    height: 260px;
+    background-image: url('../assets/images/volume2.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: .3s;
+}
+.img-3 {
+    width: 600px;
+    height: 260px;
+    background-image: url('../assets/images/volume3.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: .3s;
+}
+.img-4 {
+    width: 600px;
+    height: 260px;
+    background-image: url('../assets/images/volume4.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: .3s;
+}

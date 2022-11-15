@@ -86,10 +86,12 @@
         @include font(16);
         color: #F1F1F1;
         margin: 7px 0 0 0;
+        font-weight: 400;
     }
 
     &__intro-title {
         @include fontA(64);
+        font-weight: 400;
         color: #2194FF;
         width: 450px;
         margin: 12px 0 14px 0;
@@ -132,42 +134,17 @@
     //         box-shadow: -6px 6px 15px #2194FF;
     //     }
     // }
-    &__intro-btn {
+
+    &__intro-btn{
         width: 180px;
         height: 60px;
-        cursor: pointer;
         margin: 40px 0 13px 0;
-        background: transparent;
-        border: 1px solid #91C9FF;
-        outline: none;
-        transition: 1s ease-in-out;
-      }
-      
-    &__intro-btn svg {
-        position: absolute;
-        left: 0px;
-        top: 322px;
-        fill: none;
-        stroke: #fff;
-        stroke-dasharray: 250 480;
-        stroke-dashoffset: 250;
-        transition: 1s ease-in-out;
-      }
-      
-      &__intro-btn:hover {
-        transition: 1s ease-in-out;
-        background: #4F95DA;
-      }
-      
-      &__intro-btn:hover svg {
-        stroke-dashoffset: -480;
-      }
-      
-      &__intro-btn span {
-        color: white;
-        font-size: 18px;
-        font-weight: 100;
-      }
+    }
+    &__intro-btn span{
+        @include fontA(14);
+        color: #f1f1f1;
+        text-align: center
+    }
 
     &__intro-subtitle {
         @include font(16);
