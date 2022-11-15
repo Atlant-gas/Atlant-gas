@@ -466,10 +466,12 @@ template {
   font-size: 16px;
   color: #F1F1F1;
   margin: 7px 0 0 0;
+  font-weight: 400;
 }
 .header__intro-title {
   font-family: "Russo One";
   font-size: 64px;
+  font-weight: 400;
   color: #2194FF;
   width: 450px;
   margin: 12px 0 14px 0;
@@ -491,34 +493,13 @@ template {
 .header__intro-btn {
   width: 180px;
   height: 60px;
-  cursor: pointer;
   margin: 40px 0 13px 0;
-  background: transparent;
-  border: 1px solid #91C9FF;
-  outline: none;
-  transition: 1s ease-in-out;
-}
-.header__intro-btn svg {
-  position: absolute;
-  left: 0px;
-  top: 322px;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 250 480;
-  stroke-dashoffset: 250;
-  transition: 1s ease-in-out;
-}
-.header__intro-btn:hover {
-  transition: 1s ease-in-out;
-  background: #4F95DA;
-}
-.header__intro-btn:hover svg {
-  stroke-dashoffset: -480;
 }
 .header__intro-btn span {
-  color: white;
-  font-size: 18px;
-  font-weight: 100;
+  font-family: "Russo One";
+  font-size: 14px;
+  color: #f1f1f1;
+  text-align: center;
 }
 .header__intro-subtitle {
   font-family: "Open Sans";
@@ -530,4 +511,333 @@ template {
   left: 461px;
   width: 1037px;
   height: 477px;
+}
+
+.cost {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 600px;
+  background: rgba(33, 148, 255, 0.05);
+}
+.cost__box {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  height: 490px;
+  margin: 34px auto 0;
+}
+.cost__title {
+  font-family: "Russo One";
+  font-size: 36px;
+  text-align: center;
+  color: #2194FF;
+  font-weight: 400;
+}
+.cost__sizeBox {
+  display: flex;
+  width: 730px;
+  height: 64px;
+  margin: 36px auto;
+  gap: 24px;
+}
+.cost__btn {
+  font-family: "Russo One";
+  font-size: 18px;
+  text-align: center;
+  color: #f1f1f1;
+  font-weight: 400;
+  width: 150px;
+  height: 64px;
+  padding: 10px;
+  border: 0px solid;
+  background: rgba(241, 241, 241, 0.2);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cost__img {
+  width: 600px;
+  height: 260px;
+  margin: 0 auto;
+  background-image: url("../assets/images/volume1.png");
+}
+.cost__button {
+  font-family: "Russo One";
+  font-size: 20px;
+  text-align: center;
+  color: #f1f1f1;
+  width: 400px;
+  height: 90px;
+  margin: 20px auto 0;
+  cursor: pointer;
+}
+
+.img-1 {
+  width: 600px;
+  height: 260px;
+  background-image: url("../assets/images/volume1.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.img-2 {
+  width: 600px;
+  height: 260px;
+  background-image: url("../assets/images/volume2.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.img-3 {
+  width: 600px;
+  height: 260px;
+  background-image: url("../assets/images/volume3.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.img-4 {
+  width: 600px;
+  height: 260px;
+  background-image: url("../assets/images/volume4.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 452px;
+  margin: 40px auto;
+  border: 1px solid red;
+}
+.comment__title {
+  font-family: "Russo One";
+  font-size: 36px;
+  color: #f1f1f1;
+  text-align: center;
+  font-weight: 400;
+}
+.comment__box {
+  display: flex;
+  flex-direction: row;
+  width: 1013px;
+  height: 320px;
+  margin: 47px auto 24px;
+  border: 1px solid red;
+}
+.comment__arrow {
+  width: 47px;
+  height: 72px;
+  margin: auto 0;
+  cursor: pointer;
+}
+.comment__list {
+  position: relative;
+  width: 840px;
+  height: 320px;
+  margin: 0 40px;
+}
+.comment__item {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 40px;
+  z-index: 99;
+  width: 760px;
+  height: 320px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.comment__img-box {
+  width: 200px;
+  height: 240px;
+  margin: 40px 20px 40px 40px;
+  background-image: url("../assets/images/olga.png");
+  background-size: cover;
+}
+.comment__image {
+  width: 200px;
+  height: 240px;
+  margin: 0;
+}
+.comment__img-box1 {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  width: 800px;
+  height: 286px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.comment__img-box2 {
+  position: absolute;
+  top: 34px;
+  z-index: 1;
+  width: 840px;
+  height: 252px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.comment__textbox {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  height: 223px;
+  margin: 49px 50px 48px 0;
+}
+.comment__name {
+  font-family: "Russo One";
+  font-size: 24px;
+  color: #2194FF;
+  font-weight: normal;
+  margin: 0;
+}
+.comment__address {
+  font-family: "Russo One";
+  font-size: 18px;
+  color: #2d2d2d;
+  font-weight: normal;
+  margin: 4px 0 15px 0;
+}
+.comment__desc {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #2d2d2d;
+  font-weight: 300;
+  margin: 0;
+  width: 445px;
+}
+.comment__under {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 0 auto;
+  width: 340px;
+}
+.comment__line {
+  background: rgba(241, 241, 241, 0.2);
+  border-radius: 20px;
+  width: 61px;
+  height: 18px;
+}
+
+#rightArrow {
+  background: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+#leftArrow {
+  background: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.img-1 {
+  width: 200px;
+  height: 240px;
+  background-image: url("../assets/images/olga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin: 40px 20px 40px 40px;
+  transition: 0.3s;
+}
+
+.img-2 {
+  width: 200px;
+  height: 240px;
+  background-image: url("https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/E12KS1G65-W0168RE00G7-133faf432639-512.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin: 40px 20px 40px 40px;
+  transition: 0.3s;
+}
+
+.img-3 {
+  width: 200px;
+  height: 240px;
+  background-image: url("https://www.morganstanley.com/content/dam/msdotcom/people/tiles/tile-shelbie.jpg.img.380.medium.jpg/1592241040775.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin: 40px 20px 40px 40px;
+  transition: 0.3s;
+}
+
+.img-4 {
+  width: 200px;
+  height: 240px;
+  background-image: url("https://i.pinimg.com/736x/49/84/b6/4984b66e0ab96137c9b5594e886fdedb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin: 40px 20px 40px 40px;
+  transition: 0.3s;
+}
+
+.img-5 {
+  width: 200px;
+  height: 240px;
+  background-image: url("https://images.unsplash.com/photo-1609528904487-b3476d8f8451?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzbGltJTIwbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin: 40px 20px 40px 40px;
+  transition: 0.3s;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1920px;
+  background-color: #2d2d2d;
+}
+
+.btn {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.btn svg {
+  position: absolute;
+  left: 0px;
+  top: 322px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 250 480;
+  stroke-dashoffset: 250;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
 }/*# sourceMappingURL=style.css.map */

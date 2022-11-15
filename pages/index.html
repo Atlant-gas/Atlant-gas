@@ -53,12 +53,12 @@
             <img class="header__intro-arrow" src="../assets/icons/arrow.svg" alt="arrow">
 
 
-            <button class="header__intro-btn">
+            <button class="header__intro-btn btn">
                 <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                     <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                 </svg>
-                <span>Заказать доставку</span>
+                <span>Заказать <br> доставку</span>
             </button>
             <p class="header__intro-subtitle">Доставка газа всегда по актуальным ценам</p>
             <img class="header__intro-image" src="../assets/images/img1.png" alt="image">
@@ -183,6 +183,61 @@
                 <p class="advantages__title-bottom-text">Это сильное конкурентное преимущество, которым мы дорожим</p>
             </div>
         </section>
+        <section class="cost">
+            <div class="container">
+                <div class="cost__box">
+                    <h2 class="cost__title">Выберите свой объём Газовоза</h2>
+                    
+                    <div class="cost__sizeBox">
+                        <button id="btn-1" class="cost__btn">Малый <br> 2000 л.</button>
+                        <button id="btn-2" class="cost__btn">Средний 6000 л.</button>
+                        <button id="btn-3" class="cost__btn">Стандартный 10 000 л.</button>
+                        <button id="btn-4" class="cost__btn">Оптовый <br> 40 000 л.</button>
+                    </div>
+                    
+                    <div class="cost__img" id="image"></div>
+                    <button class="cost__button btn">Заказать газ</button>
+                </div>
+            </div>
+        </section>
+        <section class="comment">
+            <div class="container">
+                <h2 class="comment__title">Отзывы наших клиентов</h2>
+                <div class="comment__box">
+                    <button id="leftArrow">
+                        <img class="comment__arrow" src="../assets/icons/arrows-left.svg" alt="arrows-left">
+                    </button>
+                    
+                    <div class="comment__list">
+                        <div class="comment__img-box1"></div>
+                        <div class="comment__img-box2"></div>
+                        
+                        <div class="comment__item">
+                            <div class="comment__img-box" id="comment__img"></div>
+                            
+                            <div class="comment__textbox">
+                                <h4 class="comment__name" id="name">Ольга И.</h4>
+                                <h6 class="comment__address" id="city">Красногорск</h6>
+                                <p class="cooment__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur facilis, ratione neque distinctio architecto suscipit cum ad, hic in laborum rem, eius saepe voluptatem consectetur fuga explicabo perspiciatis minima dolorum fugit illo dolor quisquam nulla dolorem recusandae! Eligendi, quibusdam voluptas.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <button id="rightArrow">
+                        <img class="comment__arrow" src="../assets/icons/arrows-right.svg" alt="arrows-right">
+                    </button>
+                </div>
+                <div class="comment__under">
+                    <div class="comment__line" id="line1"></div>
+                    <div class="comment__line" id="line2"></div>
+                    <div class="comment__line" id="line3"></div>
+                    <div class="comment__line" id="line4"></div>
+                    <div class="comment__line" id="line5"></div>
+                </div>
+            </div>
+        </section>
         <section class="contact">
             <div class="container">
                 <div class="contact__wrapp">
@@ -238,7 +293,6 @@
                     бесплатную установку телеметрии
                 </h3>
                 <button class="address__button">Заказать газ</button>
-            </div>
         </section>
     </main>
 
