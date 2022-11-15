@@ -1,0 +1,78 @@
+.contact {
+    padding-top: 55px;
+    width: 1920px;
+    background-color: #2C3237;
+    margin: 0 auto;
+
+    &__wrapp {
+        width: 972px;
+        height: 512px;
+        display: flex;
+        justify-content: space-between;
+        margin: 55px 526px 60px 422px;
+        display: flex;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+
+        color: #F1F1F1;
+    }
+
+    &__form {
+        width: 565px;
+    }
+
+    &__button {
+        @include font(18);
+        color: #F1F1F1;
+        width: 220px;
+        height: 47px;
+        background: #2194FF;
+        border-radius: 50px;
+        border: 0px solid;
+    }
+
+    &__input {
+        @include font(12);
+        padding: 17px 22px;
+        width: 402px;
+        height: 51px;
+        background: #FFFFFF;
+        margin-bottom: 24px;
+        border: 1px solid #DEDEDE;
+        box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    &__input:nth-child(4) {
+        height: 112px;
+        padding-bottom: 75px;
+    }
+
+    &__list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 1076px;
+        height: 66px;
+    }
+
+    &__list-item {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 166px;
+        background-color: #F1F1F1;
+    }
+
+    &__img{
+
+    }
+}

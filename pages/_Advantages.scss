@@ -1,0 +1,114 @@
+.advantages {
+    background-color: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 1200px;
+    margin: 0 auto;
+    background-image: url('../assets/images/img3.png');
+    background-repeat: no-repeat;
+    // background-size: cover;
+    background-position: bottom center;
+    background-position-x: 375px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1140px;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+    &__img {
+        margin-bottom: 5px;
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: 230px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-bottom: 45px;
+        margin-top: 57px;
+        @include fontA(36);
+        font-weight: 400;
+        line-height: 43px;
+        text-align: center;
+        color: #F1F1F1;
+    }
+
+    .advantages__item-title {
+        @include fontA(24);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        text-align: center;
+        color: #2194FF;
+        text-align: center;
+        margin-bottom: 15px;
+
+    }
+
+    .advantages__text {
+        @include font(16);
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        color: #F1F1F1;
+    }
+
+    &__title-bottom-wrapp {
+        width: 533px;
+        height: 168px;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0 0 970px;
+    }
+
+    &__title-bottom {
+        @include fontA(35);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        color: #F1F1F1;
+    }
+
+    .color__blue {
+        @include fontA(35);
+        color: #2194FF;
+        display: inline-block;
+    }
+    &__title-bottom-wrapp{
+        width: 533px;
+        height: 168px;
+    }
+    &__title-bottom {
+        margin-bottom: 27px;
+        @include fontA(36);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        color: #F1F1F1;
+        width: 545px;
+    }
+
+    &__title-bottom-text {
+        padding: 7px 13px 9px 12px;
+        text-align: center;
+        @include font(14);
+        font-style: normal;
+        font-weight: 800;
+        line-height: 19px;
+        color: #F1F1F1;
+        background: #2194FF;
+    }
+
+}
