@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     flex-direction: column;
     width: 1920px;
@@ -6,38 +6,178 @@
     background-color: #2d2d2d;
     margin: 0 auto;
 
-    &__nav{
+    &__nav {
         display: flex;
         flex-direction: row;
         width: 1076px;
         height: 98px;
-        gap: 360px;
-        margin: 18px 0 0 0;
-        border: 1px solid red;
+        gap: 400px;
+        margin: 18px auto 20px;
     }
 
-    &__logo{
+    &__logo {
         display: flex;
     }
 
-    &__line{
+    &__line {
         width: 1px;
         height: 33px;
         background-color: #fff;
         margin: 43px 21px 22px 24px;
     }
 
-    &__desc{
+    &__desc {
         @include font(16);
         font-weight: 400;
         color: #2194FF;
-        width: 110px;
+        width: 130px;
         margin: 42px 0 0 0;
     }
 
-    &__contact{
+    &__contact {
         display: flex;
         flex-direction: column;
         width: 215px;
+        gap: 5px;
+        margin: 6px 0 0 0;
+    }
+
+    &__phone {
+        @include fontA(24);
+        font-weight: 400;
+        color: #F1F1F1;
+    }
+
+    &__text {
+        @include font(16);
+        color: #2194FF;
+        text-decoration: underline;
+    }
+
+    &__intro {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 1498px;
+        height: 477px;
+        margin: 22px 0 0 422px;
+    }
+
+    &__intro-textbox {
+        display: flex;
+        flex-direction: row;
+        width: 550px;
+        height: 54px;
+        margin: 0;
+        gap: 25px;
+    }
+
+    &__intro-span {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__intro-span span {
+        display: flex;
+        gap: 8px;
+    }
+
+    &__intro-text {
+        @include font(16);
+        color: #F1F1F1;
+        margin: 7px 0 0 0;
+    }
+
+    &__intro-title {
+        @include fontA(64);
+        color: #2194FF;
+        width: 450px;
+        margin: 12px 0 14px 0;
+    }
+
+    &__intro-desc {
+        @include fontA(24);
+        color: #F1F1F1;
+        width: 300px;
+    }
+
+    &__intro-arrow {
+        position: absolute;
+        top: 217px;
+        left: 302px;
+        width: 71px;
+        height: 90px;
+        transform: rotate(10deg);
+    }
+
+    // &__intro-btn {
+    //     @include fontA(22);
+    //     text-align: center;
+    //     color: #F1F1F1;
+    //     text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    //     cursor: pointer;
+
+    //     width: 395px;
+    //     height: 87px;
+    //     margin: 40px 0 13px 0;
+    //     padding: 15px 9px;
+    //     border-radius: 10px;
+    //     background-color: #2194FF;
+    //     transition: .5s;
+
+    //     &:hover{
+    //         background-color: transparent;
+    //         color: #2194FF;
+    //         border: 2px solid #2194FF;
+    //         box-shadow: -6px 6px 15px #2194FF;
+    //     }
+    // }
+    &__intro-btn {
+        width: 180px;
+        height: 60px;
+        cursor: pointer;
+        margin: 40px 0 13px 0;
+        background: transparent;
+        border: 1px solid #91C9FF;
+        outline: none;
+        transition: 1s ease-in-out;
+      }
+      
+    &__intro-btn svg {
+        position: absolute;
+        left: 0px;
+        top: 322px;
+        fill: none;
+        stroke: #fff;
+        stroke-dasharray: 250 480;
+        stroke-dashoffset: 250;
+        transition: 1s ease-in-out;
+      }
+      
+      &__intro-btn:hover {
+        transition: 1s ease-in-out;
+        background: #4F95DA;
+      }
+      
+      &__intro-btn:hover svg {
+        stroke-dashoffset: -480;
+      }
+      
+      &__intro-btn span {
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+      }
+
+    &__intro-subtitle {
+        @include font(16);
+        color: #F1F1F1;
+    }
+
+    &__intro-image {
+        position: absolute;
+        left: 461px;
+        width: 1037px;
+        height: 477px;
     }
 }
