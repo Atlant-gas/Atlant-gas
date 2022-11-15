@@ -4,10 +4,12 @@
     text-decoration: none;
     list-style: none;
     font-family: 'RussoOne';  
+    box-sizing: border-box;
 }
 body {
-    background-color: #222222;
+    margin: 0;
+    padding: 0;
 }
-.flex {
-    display: flex;
+.container {
+    margin: 0 auto;
 }

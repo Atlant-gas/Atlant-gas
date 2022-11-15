@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 650px;
+    background-color: #2d2d2d;
+    margin: 0 auto;
+
+    &__nav{
+        display: flex;
+        flex-direction: row;
+        width: 1076px;
+        height: 98px;
+        gap: 360px;
+        margin: 18px 0 0 0;
+        border: 1px solid red;
+    }
+
+    &__logo{
+        display: flex;
+    }
+
+    &__line{
+        width: 1px;
+        height: 33px;
+        background-color: #fff;
+        margin: 43px 21px 22px 24px;
+    }
+
+    &__desc{
+        @include font(16);
+        font-weight: 400;
+        color: #2194FF;
+        width: 110px;
+        margin: 42px 0 0 0;
+    }
+
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        width: 215px;
+        height: 56px;
+    }
+}

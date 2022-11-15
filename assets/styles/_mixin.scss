@@ -1,0 +1,50 @@
+@mixin font($size){
+    font-family: 'Open Sans';
+ 
+    @if $size == 36{
+        font-size: 36px;
+    } 
+    @else if $size == 24{
+        font-size: 24px;
+    } 
+    @else if $size == 22{
+        font-size: 22px;
+    }  
+    @else if $size == 20{
+        font-size: 20px;
+    } 
+    @else if $size == 18{
+        font-size: 18px;
+    } 
+    @else if $size == 16{
+        font-size: 16px;
+    } 
+    @else if $size == 14{
+        font-size: 14px;
+    }
+}
+@mixin fontA($subSize){
+    font-family: 'Russo One';
+    
+    @if $size == 36{
+        font-size: 36px;
+    } 
+    @else if $size == 24{
+        font-size: 24px;
+    } 
+    @else if $size == 22{
+        font-size: 22px;
+    }  
+    @else if $size == 20{
+        font-size: 20px;
+    } 
+    @else if $size == 18{
+        font-size: 18px;
+    } 
+    @else if $size == 16{
+        font-size: 16px;
+    } 
+    @else if $size == 14{
+        font-size: 14px;
+    }
+}
