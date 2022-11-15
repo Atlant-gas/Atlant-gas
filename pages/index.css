@@ -434,6 +434,258 @@ template {
 .header__contact {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD:pages/index.css
   width: 215px;
   height: 56px;
+=======
+  align-items: center;
+}
+
+.gasDelivery {
+  justify-content: center;
+  transform: translateX(178px);
+}
+.gasDelivery__info {
+  transform: translateX(72px);
+}
+.gasDelivery__info p {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #F1F1F1;
+  transform: translateX(20px);
+  margin-top: 13px;
+}
+.gasDelivery__info__service {
+  gap: 34px;
+  margin-top: 36px;
+}
+.gasDelivery__info__service--item p {
+  font-family: "OpenSans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #F1F1F1;
+}
+.gasDelivery__info h1 {
+  margin: 12px 0 14px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 63px;
+  color: #2194FF;
+}
+.gasDelivery__info__subtitle p {
+  font-size: 24px;
+  line-height: 29px;
+  color: #F1F1F1;
+}
+.gasDelivery__info button {
+  width: 395px;
+  height: 87px;
+  background-image: url(./assets/images/bg-btn1.png);
+  border-radius: 10px;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #F1F1F1;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.costofGas {
+  background: #2D3238;
+  width: 100vw;
+  justify-content: center;
+}
+.costofGas__container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 1140px;
+}
+.costofGas img {
+  transform: translateY(40px);
+}
+
+.Benefits {
+  flex-direction: column;
+  align-items: center;
+}
+.Benefits h2 {
+  margin: 57px 0 25px;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #F1F1F1;
+}
+.Benefits__box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 29px 29px;
+}
+.Benefits__box__item {
+  width: 322px;
+  align-items: center;
+  text-align: center;
+}
+.Benefits__box__item h4 {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #2194FF;
+  margin: 8px 0 14px;
+}
+.Benefits__box__item p {
+  font-family: "OpenSans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #F1F1F1;
+}
+.Benefits__container {
+  margin-top: 40px;
+}
+.Benefits__container__info {
+  width: 533px;
+  max-width: 100%;
+}
+.Benefits__container__info h4 {
+  font-size: 35px;
+  line-height: 42px;
+  color: #F1F1F1;
+}
+.Benefits__container__info h4 span {
+  color: #2194FF;
+}
+.Benefits__container__info p {
+  background-color: #2194FF;
+  padding: 8px 12px;
+  margin-top: 20px;
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  color: #F1F1F1;
+}
+
+.ChooseVolume {
+  background: #2D3238;
+  width: 100vw;
+  justify-content: center;
+}
+.ChooseVolume__container h2 {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #2194FF;
+  margin: 34px 0 35px;
+}
+.ChooseVolume__container__elections {
+  gap: 24px;
+}
+.ChooseVolume__container__elections button {
+  width: 164px;
+  height: 64px;
+  background: rgba(241, 241, 241, 0.2);
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #F1F1F1;
+}
+.ChooseVolume__container__elections .active {
+  background-color: #2194FF;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.ChooseVolume__container__img {
+  margin-top: 37px;
+}
+.ChooseVolume__container__btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+  transform: translateY(-37px);
+}
+.ChooseVolume__container__btn button {
+  width: 295px;
+  height: 87px;
+  border-radius: 10px;
+  background-image: url(./assets/images/bg-btn2.png);
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #F1F1F1;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.comment {
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(40px);
+}
+.comment h2 {
+  margin: 40px 0 47px;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #F1F1F1;
+}
+.comment__container {
+  gap: 40px;
+}
+.comment__container > img:nth-child(1) {
+  transform: translateX(740px);
+}
+.comment__container--right {
+  transform: translateX(-820px);
+}
+.comment__container__comments {
+  position: relative;
+  align-items: center;
+}
+.comment__container__comments--item {
+  width: 759px;
+  height: 320px;
+  padding: 40px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  gap: 23px;
+}
+.comment__container__comments--item h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #2194FF;
+}
+.comment__container__comments--item h6 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #2D2D2D;
+}
+.comment__container__comments--item p {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2D2D2D;
+}
+.comment__container__comments--item:nth-child(1) {
+  z-index: 10;
+  transform: translateX(780px);
+}
+.comment__container__comments--item:nth-child(2) {
+  width: 799px;
+  height: 286px;
+  z-index: 5;
+}
+.comment__container__comments--item:nth-child(3) {
+  width: 839px;
+  height: 252px;
+  z-index: 1;
+  transform: translateX(-820px);
+>>>>>>> 994406d475b7001deb37a8d400f39e91fffc724a:index.css
 }/*# sourceMappingURL=index.css.map */
