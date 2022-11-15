@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -23,122 +25,126 @@
             </div>
         </div>
     </header>
-    <main class="flex">
-        <section class="gasDelivery flex">
-            <div class="gasDelivery__info">
-                <div class="gasDelivery__info__service flex">
-                    <div class="gasDelivery__info__service--item">
-                        <img src="./assets/icons/day.svg" alt="day">
-                        <p>В любое время дня и ночи</p>
+    <main class="main">
+        <section class="">
+            <div class="container">
+                <div class="gasDelivery__info">
+                    <div class="gasDelivery__info__service flex">
+                        <div class="gasDelivery__info__service--item">
+                            <img src="./assets/icons/day.svg" alt="day">
+                            <p>В любое время дня и ночи</p>
+                        </div>
+                        <div class="gasDelivery__info__service--item">
+                            <img src="./assets/icons/weather.svg" alt="weather">
+                            <p>Вне зависимости от погодных условий</p>
+                        </div>
                     </div>
-                    <div class="gasDelivery__info__service--item">
-                        <img src="./assets/icons/weather.svg" alt="weather">
-                        <p>Вне зависимости от погодных условий</p>
+                    <h1>Доставим газ <br>за 4 часа</h1>
+                    <div class="gasDelivery__info__subtitle flex">
+                        <p>в любую точку Москвы <br>и Московской области</p>
+                        <img src="./assets/icons/arrow.svg" alt="arrow">
                     </div>
+                    <button>Заказать доставку газа <br> в газгольдер</button>
+                    <p>Доставка газа всегда по актуальным ценам</p>
                 </div>
-                <h1>Доставим газ <br>за 4 часа</h1>
-                <div class="gasDelivery__info__subtitle flex">
-                    <p>в любую точку  Москвы <br>и Московской области</p>
-                    <img src="./assets/icons/arrow.svg" alt="arrow">
+                <div class="gasDelivery__img">
+                    <img src="./assets/images/img1.png" alt="track">
                 </div>
-                <button>Заказать доставку газа <br> в газгольдер</button>
-                <p>Доставка газа всегда по актуальным ценам</p>
-            </div>
-            <div class="gasDelivery__img">
-                <img src="./assets/images/img1.png" alt="track">
             </div>
         </section>
-        <section class="costofGas flex">
-            <div class="costofGas__container flex">
-                <h2>Стоимость газа в ваш газгольдер сегодня</h2>
-                <ul class="costofGas__container__box flex">
-                    <li class="costofGas__container__box__item">
-                        <h3>Пропан</h3>
-                        <p>от 25 рублей за литр</p>
-                        <p>Физически испарение происходит до -40 градусов, что позволяет использовать его в наших с вами погодных условиях</p>
-                        <button>Заказать</button>
-                    </li>
-                    <li class="costofGas__container__box__item">
-                        <p>Идеальное соотношение</p>
-                        <div>
-                            <div>
-                                <h4>80%</h4>
-                                <p>пропана</p>
+        <section class="price">
+            <div class="container">
+                <h2 class="price__title">Стоимость газа в ваш газгольдер сегодня</h2>
+                <div class="price__wrapp">
+                    <div class="price__box">
+                        <h3 class="price__list-title">Пропан</h3>
+                        <strong class="price__list-strong">от 25 рублей за литр</strong>
+                        <p class="price__list-text">Физически испарение происходит до -40 градусов, что позволяет использовать его в наших с вами
+                            погодных условиях</p>
+                        <button class="price__btn">Заказать</button>
+                    </div>
+                    <div class="price__box middle__box">
+                        <strong class="price__text price__item-text">Идеальное соотношение</strong>
+                        <div class="price__title-center">
+                            <div class="price__strong-wrapp">
+                                <strong class="price__item-strong"><span style="font-size: 32px; font-family: 'Russo One';">80%</span><br>пропана</strong>
                             </div>
-                            <span></span>
-                            <div>
-                                <h4>20%</h4>
-                                <p>бутана</p>
+                            <span class="price__line"></span>
+                            <div class="price__strong-wrapp">
+                                <strong class="price__item-strong"> <span style="font-size: 32px; font-family: 'Russo One';">20%</span><br>бутана</strong>
                             </div>
                         </div>
-                        <img src="./assets/images/img2.png" alt="track2">
-                    </li>
-                    <li class="costofGas__container__box__item">
-                        <h3>Бутан</h3>
-                        <p>от 16 рублей за литр</p>
-                        <p>Испарение Бутана происходит только до 0 градусов и годится для использования в тёплое время года</p>
-                        <button>Заказать</button>
-                    </li>
-                </ul>
-                <img src="./assets/icons/arrow bottom.svg" alt="arrow">
+                        <img src="../assets/images/img2.png" alt="track2">
+                    </div>
+                    <div class="price__box">
+                        <h3 class="price__list-title">Бутан</h3>
+                        <strong class="price__list-strong">от 16 рублей за литр</strong>
+                        <p class="price__list-text">Испарение Бутана происходит только до 0 градусов и годится для использования в тёплое время
+                            года</p>
+                        <button class="price__btn">Заказать</button>
+                    </div>
+                </div>
+                <img class="price__kamaz" src="../assets/icons/arrow bottom.svg" alt="arrow">
             </div>
         </section>
-        <section class="Benefits flex">
-            <h2>Преимущества работы с нашей компанией</h2>
+        <section class="Advantages">
+            <h2 class="Advantages__title">Преимущества работы с нашей компанией</h2>
             <ul class="Benefits__box">
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/storage.svg" alt="storage">
+                    <img src="../assets/icons/storage.svg"
                     <h4>Экономия <br> на хранилище</h4>
                     <p>за счёт собственных цистерн <br> на нашей базе</p>
-                </li>              
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/transport.svg" alt="transport">
+                    <img src="../assets/icons/transport.svg" alt="transport">
                     <h4>Экономия <br> на транспорте</h4>
                     <p>более 10 собственный газовозов</p>
-                </li>              
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/calc.svg" alt="calc">
+                    <img src="../assets/icons/calc.svg" alt="calc">
                     <h4>Поставки напрямую <br> от производителей</h4>
                     <p>нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</p>
-                </li>              
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/baloon.svg" alt="baloon">
+                    <img src="../assets/icons/baloon.svg" alt="baloon">
                     <h4>Любые объёмы поставки качественного газа</h4>
                     <p>вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</p>
-                </li>              
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/cart.svg" alt="cart">
+                    <img src="../assets/icons/cart.svg" alt="cart">
                     <h4>Оплата удобным для вас способом</h4>
                     <p>все газовозы оснащены терминалами для оплаты вашего заказа</p>
-                </li>              
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/oil.svg" alt="oil">
+                    <img src="../assets/icons/oil.svg" alt="oil">
                     <h4>Чистый газ без примесей</h4>
                     <p>нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</p>
-                </li>              
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/sm.svg" alt="sm">
+                    <img src="../assets/icons/sm.svg" alt="sm">
                     <h4>Длина заправочных рукавов — 50 метров</h4>
                     <p>не требуется подъезд автомобиля вплотную к резервуару</p>
-                </li>              
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/timer.svg" alt="timer">
+                    <img src="../assets/icons/timer.svg" alt="timer">
                     <h4>Доставка сжиженного газа в формате 24/7</h4>
-                    <p>привезем газ в удобное для вас время или же  по графику</p>
-                </li>              
+                    <p>привезем газ в удобное для вас время или же по графику</p>
+                </li>
                 <li class="Benefits__box__item">
-                    <img src="./assets/icons/certificate.svg" alt="certificate">
+                    <img src="../assets/icons/certificate.svg" alt="certificate">
                     <h4>Аттестованный персонал</h4>
-                    <p>квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</p>
-                </li>              
+                    <p>квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны
+                        будут</p>
+                </li>
             </ul>
             <div class="Benefits__container flex">
                 <div class="Benefits__container__img">
-                    <img src="./assets/images/img3.png" alt="track3">
+                    <img src="../assets/images/img3.png" alt="track3">
                 </div>
                 <div class="Benefits__container__info">
-                    <h4>Благодаря нашему собственному автопарку мы можем давать гарантию, что доставим <span>за 4 часа</span></h4>
-                    <p>Это сильное конкурентное преимущество, которым мы дорожим</p>                    
+                    <h4>Благодаря нашему собственному автопарку мы можем давать гарантию, что доставим <span>за 4
+                            часа</span></h4>
+                    <p>Это сильное конкурентное преимущество, которым мы дорожим</p>
                 </div>
             </div>
         </section>
@@ -169,7 +175,10 @@
                         <div>
                             <h4>Ольга И.</h4>
                             <h6>Красногорск</h6>
-                            <p>Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</p>
+                            <p>Я всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей
+                                водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие
+                                даже не понадобится. Спасибо компании за то что они все закрыли этот вопрос под ключ.
+                            </p>
                         </div>
                     </div>
                     <div class="comment__container__comments--item flex">
@@ -177,7 +186,10 @@
                         <div>
                             <h4>Ольга И.</h4>
                             <h6>Красногорск</h6>
-                            <p>Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</p>
+                            <p>Я всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей
+                                водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие
+                                даже не понадобится. Спасибо компании за то что они все закрыли этот вопрос под ключ.
+                            </p>
                         </div>
                     </div>
                     <div class="comment__container__comments--item flex">
@@ -185,17 +197,21 @@
                         <div>
                             <h4>Ольга И.</h4>
                             <h6>Красногорск</h6>
-                            <p>Я  всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие даже не понадобится.  Спасибо  компании за то что они все закрыли  этот вопрос под ключ.</p>
+                            <p>Я всегда боюсь газа , а особенно боюсь что он может взорваться, как же мне помог Андрей
+                                водитель-экспедитор показал что бояться тут нечего и самое главное моего присутствие
+                                даже не понадобится. Спасибо компании за то что они все закрыли этот вопрос под ключ.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <img class="comment__container--right" src="./assets/icons/arrows-right.svg" alt="arrows-right">
             </div>
         </section>
-        
+
     </main>
-    
+
 
     <script src="./index.js"></script>
 </body>
+
 </html>
