@@ -1,50 +1,67 @@
-@mixin font($size){
+@mixin font($size) {
     font-family: 'Open Sans';
- 
-    @if $size == 36{
+
+    @if $size ==36 {
         font-size: 36px;
-    } 
-    @else if $size == 24{
+    }
+
+    @else if $size ==24 {
         font-size: 24px;
-    } 
-    @else if $size == 22{
+    }
+
+    @else if $size ==22 {
         font-size: 22px;
-    }  
-    @else if $size == 20{
+    }
+
+    @else if $size ==20 {
         font-size: 20px;
-    } 
-    @else if $size == 18{
+    }
+
+    @else if $size ==18 {
         font-size: 18px;
-    } 
-    @else if $size == 16{
+    }
+
+    @else if $size ==16 {
         font-size: 16px;
-    } 
-    @else if $size == 14{
+    }
+
+    @else if $size ==14 {
         font-size: 14px;
     }
 }
-@mixin fontA($subSize){
+
+@mixin fontA($subSize) {
     font-family: 'Russo One';
-    
-    @if $subSize == 36{
+
+    @if $subSize ==64 {
+        font-size: 64px;
+    }
+
+    @else if $subSize ==36 {
         font-size: 36px;
-    } 
-    @else if $subSize == 24{
+    }
+
+    @else if $subSize ==24 {
         font-size: 24px;
-    } 
-    @else if $subSize == 22{
+    }
+
+    @else if $subSize ==22 {
         font-size: 22px;
-    }  
-    @else if $subSize == 20{
+    }
+
+    @else if $subSize ==20 {
         font-size: 20px;
-    } 
-    @else if $subSize == 18{
+    }
+
+    @else if $subSize ==18 {
         font-size: 18px;
-    } 
-    @else if $subSize == 16{
+    }
+
+    @else if $subSize ==16 {
         font-size: 16px;
-    } 
-    @else if $subSize == 14{
+    }
+
+    @else if $subSize ==14 {
         font-size: 14px;
     }
 }

@@ -398,8 +398,8 @@ template {
   flex-direction: row;
   width: 1076px;
   height: 98px;
-  gap: 360px;
-  margin: 18px 0 0 0;
+  gap: 400px;
+  margin: 18px auto 20px;
 }
 .header__logo {
   display: flex;
@@ -415,223 +415,119 @@ template {
   font-size: 16px;
   font-weight: 400;
   color: #2194FF;
-  width: 110px;
+  width: 130px;
   margin: 42px 0 0 0;
 }
 .header__contact {
   display: flex;
   flex-direction: column;
   width: 215px;
+  gap: 5px;
+  margin: 6px 0 0 0;
 }
-
-.price {
-  display: flex;
-  flex-direction: column;
-  width: 1920px;
-  height: 572px;
-  background-color: #2C3237;
-  margin: 0 auto;
-}
-.price__box {
-  display: inline-block;
-  width: 260px;
-}
-.price__wrapp {
-  display: inline-block;
-  justify-content: space-between;
-  display: flex;
-  width: 1140px;
-}
-.price__list-strong {
+.header__phone {
   font-family: "Russo One";
   font-size: 24px;
-  color: #2194FF;
-  margin-bottom: 21px;
-}
-.price__list-title {
-  font-family: "Russo One";
-  font-size: 36px;
   font-weight: 400;
-  line-height: 43px;
   color: #F1F1F1;
 }
-.price__title {
-  font-family: "Russo One";
-  font-size: 36px;
-  text-align: center;
-  font-weight: 400;
-  line-height: 43px;
-  color: #2194FF;
-  margin-bottom: 49px;
-}
-.price__item-text {
-  color: #F1F1F1;
-  margin-top: 27px;
-}
-.price__list-text {
+.header__text {
   font-family: "Open Sans";
   font-size: 16px;
-  font-weight: 300;
-  line-height: 22px;
-  color: #F1F1F1;
-  margin: 21px 0 28px 0;
+  color: #2194FF;
+  text-decoration: underline;
 }
-.price__text {
-  color: #F1F1F1;
-  opacity: 0.7;
-  margin-bottom: 13px;
-  display: inline-block;
-}
-.price__item-strong {
-  font-family: "Russo One";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #F1F1F1;
-  opacity: 0.7;
-}
-.price__line {
-  margin: 0 25px;
-  width: 0;
-  height: 51px;
-  display: inline-block;
-  border: 1px solid rgba(241, 241, 241, 0.3);
-}
-.price__strong-wrapp {
-  display: inline-block;
-}
-.price .middle__box {
-  width: 542px;
-  text-align: center;
-}
-.price__kamaz {
-  width: 76px;
-  display: flex;
-  margin: 0 auto;
-}
-.price__title-center {
-  margin-bottom: 27px;
-  text-align: center;
-}
-.price__btn {
-  font-family: "Open Sans";
-  font-size: 18px;
-  color: #f1f1f1;
-  font-weight: 700;
-  background: #2194FF;
-  border-radius: 50px;
-  padding: 8px 35px 10px 33px;
-  margin-top: 28px;
-  border: 1px solid transparent;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-.price__btn:hover, .price__btn:focus {
-  border-color: var(--hover);
-  color: #fff;
-}
-
-.price {
+.header__intro {
   display: flex;
   flex-direction: column;
-  width: 1920px;
-  height: 572px;
-  background-color: #2C3237;
-  margin: 0 auto;
+  position: relative;
+  width: 1498px;
+  height: 477px;
+  margin: 22px 0 0 422px;
 }
-.price__box {
-  display: inline-block;
-  width: 260px;
-}
-.price__wrapp {
-  display: inline-block;
-  justify-content: space-between;
+.header__intro-textbox {
   display: flex;
-  width: 1140px;
+  flex-direction: row;
+  width: 550px;
+  height: 54px;
+  margin: 0;
+  gap: 25px;
 }
-.price__list-strong {
-  font-family: "Russo One";
-  font-size: 24px;
-  color: #2194FF;
-  margin-bottom: 21px;
+.header__intro-span {
+  display: flex;
+  flex-direction: column;
 }
-.price__list-title {
-  font-family: "Russo One";
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 43px;
-  color: #F1F1F1;
+.header__intro-span span {
+  display: flex;
+  gap: 8px;
 }
-.price__title {
-  font-family: "Russo One";
-  font-size: 36px;
-  text-align: center;
-  font-weight: 400;
-  line-height: 43px;
-  color: #2194FF;
-  margin-bottom: 49px;
-}
-.price__item-text {
-  color: #F1F1F1;
-  margin-top: 27px;
-}
-.price__list-text {
+.header__intro-text {
   font-family: "Open Sans";
   font-size: 16px;
-  font-weight: 300;
-  line-height: 22px;
   color: #F1F1F1;
-  margin: 21px 0 28px 0;
+  margin: 7px 0 0 0;
 }
-.price__text {
-  color: #F1F1F1;
-  opacity: 0.7;
-  margin-bottom: 13px;
-  display: inline-block;
-}
-.price__item-strong {
+.header__intro-title {
   font-family: "Russo One";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
+  font-size: 64px;
+  color: #2194FF;
+  width: 450px;
+  margin: 12px 0 14px 0;
+}
+.header__intro-desc {
+  font-family: "Russo One";
+  font-size: 24px;
   color: #F1F1F1;
-  opacity: 0.7;
+  width: 300px;
 }
-.price__line {
-  margin: 0 25px;
-  width: 0;
-  height: 51px;
-  display: inline-block;
-  border: 1px solid rgba(241, 241, 241, 0.3);
+.header__intro-arrow {
+  position: absolute;
+  top: 217px;
+  left: 302px;
+  width: 71px;
+  height: 90px;
+  transform: rotate(10deg);
 }
-.price__strong-wrapp {
-  display: inline-block;
+.header__intro-btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  margin: 40px 0 13px 0;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
 }
-.price .middle__box {
-  width: 542px;
-  text-align: center;
+.header__intro-btn svg {
+  position: absolute;
+  left: 0px;
+  top: 322px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 250 480;
+  stroke-dashoffset: 250;
+  transition: 1s ease-in-out;
 }
-.price__kamaz {
-  width: 76px;
-  display: flex;
-  margin: 0 auto;
+.header__intro-btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
 }
-.price__title-center {
-  margin-bottom: 27px;
-  text-align: center;
+.header__intro-btn:hover svg {
+  stroke-dashoffset: -480;
 }
-.price__btn {
-  font-family: "Open Sans";
+.header__intro-btn span {
+  color: white;
   font-size: 18px;
-  color: #f1f1f1;
-  font-weight: 700;
-  background: #2194FF;
-  border-radius: 50px;
-  padding: 8px 35px 10px 33px;
-  margin-top: 28px;
-  border: 1px solid transparent;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 100;
 }
-.price__btn:hover, .price__btn:focus {
-  border-color: var(--hover);
-  color: #fff;
+.header__intro-subtitle {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #F1F1F1;
+}
+.header__intro-image {
+  position: absolute;
+  left: 461px;
+  width: 1037px;
+  height: 477px;
 }/*# sourceMappingURL=style.css.map */
