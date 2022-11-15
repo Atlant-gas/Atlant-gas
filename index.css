@@ -443,6 +443,7 @@ main {
   color: #F1F1F1;
   text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
 }
+
 .costofGas {
   background: #2D3238;
   width: 100vw;
@@ -452,4 +453,34 @@ main {
   flex-direction: column;
   align-items: center;
   max-width: 1140px;
+}
+
+.Benefits {
+  flex-direction: column;
+  align-items: center;
+}
+.Benefits__box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 29px 29px;
+}
+.Benefits__box__item {
+  width: 322px;
+  align-items: center;
+  text-align: center;
+}
+.Benefits__box__item h4 {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #2194FF;
+  margin: 8px 0 14px;
+}
+.Benefits__box__item p {
+  font-family: "OpenSans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #F1F1F1;
 }/*# sourceMappingURL=index.css.map */
