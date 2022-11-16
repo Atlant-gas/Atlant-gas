@@ -112,9 +112,7 @@
         transform: rotate(10deg);
     }
 
-<<<<<<< HEAD
-    &__intro-btn {
-=======
+
     // &__intro-btn {
     //     @include fontA(22);
     //     text-align: center;
@@ -139,7 +137,6 @@
     // }
 
     &__intro-btn{
->>>>>>> 134a74adfc9c75adb075cea4466b27d4c0cc5689
         width: 180px;
         height: 60px;
         margin: 40px 0 13px 0;
@@ -147,7 +144,7 @@
     &__intro-btn span{
         @include fontA(14);
         color: #f1f1f1;
-        text-align: center
+        text-align: center;
     }
 
     &__intro-subtitle {

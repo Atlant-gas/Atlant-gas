@@ -47,8 +47,10 @@ var $line_3 = document.getElementById('line3');
 var $line_4 = document.getElementById('line4');
 var $line_5 = document.getElementById('line5');
 var $comment_img = document.getElementById('comment__img');
-var $name = document.getElementById('name')
-var $city = document.getElementById('city')
+var $name = document.getElementById('name');
+var $city = document.getElementById('city');
+var $item = document.querySelectorAll('#item');
+var $itemText = document.getElementById('item-text');
 
 
 $btn_1.style.backgroundColor = '#2194FF'

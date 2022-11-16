@@ -1,7 +1,6 @@
 .address {
     padding-top: 34px;
     width: 1920px;
-    background-color: #2C3237;
     margin: 0 auto;
 
     &__title {
@@ -26,4 +25,75 @@
         margin: 0 auto;
         display: flex;
     }
+
+    &__box {
+        display: flex;
+        width: 1140px;
+        height: 488px;
+        background: #F1F1F1;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 33px;
+        margin: 50px auto 40px;
+    }
+
+    &__textbox{
+        display: flex;
+        flex-direction: column;
+        width: 570px;
+    }
+
+    &__text{
+        @include fontA(36);
+        font-weight: 400;
+        color: #2194FF;
+        text-transform: uppercase;
+        margin: 40px 0 40px;
+        width: 380px;
+        margin: 40px 0 0 40px;
+    }
+
+    &__desc{
+        @include font(18);
+        text-transform: uppercase;
+        color: #1B2639;
+        width: 445px;
+        margin: 16px 0 0 40px;
+    }
+
+    &__line{
+        width: 490px;
+        margin: 21px 0 31px 40px;
+    }
+
+    &__subtext{
+        @include font(18);
+        text-transform: uppercase;
+        color: #2194FF;
+        font-weight: 700;
+        margin: 3px 0 0 40px;
+    }
+
+    &__subdesc{
+        @include font(18);
+        color: #1B2639;
+        margin: 3px 0 0 40px;
+    }
+
+    &__subtext2{
+        @include font(18);
+        text-transform: uppercase;
+        color: #2194FF;
+        font-weight: 700;
+        margin: 45px 0 0 40px;
+    }
+
+    &__subdesc2{
+        @include font(18);
+        color: #1B2639;
+        margin: 3px 0 0 40px;
+    }
+}
+iframe{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }

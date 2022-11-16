@@ -1,7 +1,6 @@
 .contact {
     padding-top: 55px;
     width: 1920px;
-    background-color: #2C3237;
     margin: 0 auto;
 
     &__wrapp {
@@ -67,12 +66,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
         border-radius: 20px;
         width: 166px;
         background-color: #F1F1F1;
+        transition: .4s;
+
+        &:hover{
+            width: 1076px;
+        }
     }
 
-    &__img{
-
-    }
 }

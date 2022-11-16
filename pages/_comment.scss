@@ -4,7 +4,6 @@
     width: 1440px;
     height: 452px;
     margin: 40px auto;
-    border: 1px solid red;
 
     &__title {
         @include fontA(36);
@@ -19,7 +18,6 @@
         width: 1013px;
         height: 320px;
         margin: 47px auto 24px;
-        border: 1px solid red;
     }
 
     &__arrow {
@@ -143,57 +141,57 @@
     cursor: pointer;
 }
 
-.img-1{
-    width: 200px;
-    height: 240px;
-    background-image: url('../assets/images/olga.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin: 40px 20px 40px 40px;
-    transition: .3s;
-}
+// .img-1{
+//     width: 200px;
+//     height: 240px;
+//     background-image: url('../assets/images/olga.png');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     margin: 0 auto;
+//     margin: 40px 20px 40px 40px;
+//     transition: .3s;
+// }
 
-.img-2{
-    width: 200px;
-    height: 240px;
-    background-image: url('https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/E12KS1G65-W0168RE00G7-133faf432639-512.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin: 40px 20px 40px 40px;
-    transition: .3s;
-}
+// .img-2{
+//     width: 200px;
+//     height: 240px;
+//     background-image: url('https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/E12KS1G65-W0168RE00G7-133faf432639-512.jpeg');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     margin: 0 auto;
+//     margin: 40px 20px 40px 40px;
+//     transition: .3s;
+// }
 
-.img-3{
-    width: 200px;
-    height: 240px;
-    background-image: url('https://www.morganstanley.com/content/dam/msdotcom/people/tiles/tile-shelbie.jpg.img.380.medium.jpg/1592241040775.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    margin: 40px 20px 40px 40px;
-    transition: .3s;
-}
+// .img-3{
+//     width: 200px;
+//     height: 240px;
+//     background-image: url('https://www.morganstanley.com/content/dam/msdotcom/people/tiles/tile-shelbie.jpg.img.380.medium.jpg/1592241040775.jpg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     margin: 0 auto;
+//     margin: 40px 20px 40px 40px;
+//     transition: .3s;
+// }
 
-.img-4{
-    width: 200px;
-    height: 240px;
-    background-image: url('https://i.pinimg.com/736x/49/84/b6/4984b66e0ab96137c9b5594e886fdedb.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    margin: 40px 20px 40px 40px;
-    transition: .3s;
-}
+// .img-4{
+//     width: 200px;
+//     height: 240px;
+//     background-image: url('https://i.pinimg.com/736x/49/84/b6/4984b66e0ab96137c9b5594e886fdedb.jpg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     margin: 0 auto;
+//     margin: 40px 20px 40px 40px;
+//     transition: .3s;
+// }
 
-.img-5{
-    width: 200px;
-    height: 240px;
-    background-image: url('https://images.unsplash.com/photo-1609528904487-b3476d8f8451?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzbGltJTIwbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    margin: 40px 20px 40px 40px;
-    transition: .3s;
-}
+// .img-5{
+//     width: 200px;
+//     height: 240px;
+//     background-image: url('https://images.unsplash.com/photo-1609528904487-b3476d8f8451?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzbGltJTIwbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     margin: 0 auto;
+//     margin: 40px 20px 40px 40px;
+//     transition: .3s;
+// }
